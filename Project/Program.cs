@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Project
 {
     internal class Program
@@ -12,6 +13,12 @@ namespace Project
         {
             Start startScreen = new Start();
             startScreen.Scene();
+
+            Character character = new Character();
+            character.Selected();
+
+            MainScene scene = new MainScene();
+            scene.MainS();
         }
     }
 }

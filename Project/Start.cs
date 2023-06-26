@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
+
 
 namespace Project
 {
@@ -11,6 +13,7 @@ namespace Project
     {
         public void Scene()
         {
+            WriteLine("   겨울의 탑");
             WriteLine("press any key....");
             ReadLine();
             Clear();
@@ -26,7 +29,12 @@ namespace Project
                 "득실대고 있다는 정보만을 전한 뒤 정신이 나가 버렸다." +
                 "인류는 거듭된 실패로 인해 크게 사기가 떨어졌지만," +
                 "다른 대안이 없기에 최후의 원정을 준비한다.");
-            
+            ReadLine();
+            Clear();
+            WriteLine("캐릭터를 선택하세요.");
+
         }
+
+
     }
 }
