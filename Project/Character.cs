@@ -18,14 +18,32 @@ namespace Project
             {
                 case 1:
                     Console.WriteLine("유준호 가(이) 선택되었습니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("유준호와 여정을 떠납니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("숲에 도착한 유준호 신비로운 힘을 얻습니다.");
                     // 선택된 캐릭터 1에 대한 처리
                     break;
                 case 2:
                     Console.WriteLine("이미정 가(이) 선택되었습니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("이미정과 여정을 떠납니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("숲에 도착한 이미정 신비로운 힘을 얻습니다.");
                     // 선택된 캐릭터 2에 대한 처리
                     break;
                 case 3:
                     Console.WriteLine("박시연 가(이) 선택되었습니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("박시연과 여정을 떠납니다.");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Console.WriteLine("숲에 도착한 박시연 신비로운 힘을 얻습니다.");
                     // 선택된 캐릭터 3에 대한 처리
                     break;
                 default:

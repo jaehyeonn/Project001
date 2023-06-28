@@ -13,21 +13,18 @@ namespace Project
 
         public void MainS()
         {
-            string[] a = new string[5];
+            string[] a = new string[4];
             List<string> userstatus = new List<string>();
-            Console.WriteLine("유준호와 여정을 떠납니다");
-            Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("숲에 도착한 유준호 신비로운 힘을 얻습니다.");
+         
             Random random = new Random();
             int rand1;
             int rand2;
             int rand3;
             while (true)
             {
-                rand1 = random.Next(0, 5);
-                rand2 = random.Next(0, 5);
-                rand3 = random.Next(0, 5);
+                rand1 = random.Next(0, 4);
+                rand2 = random.Next(0, 4);
+                rand3 = random.Next(0, 4);
                 if (rand1 != rand2 && rand1 != rand3 && rand2 != rand3)
                 {
                     break;
@@ -39,11 +36,10 @@ namespace Project
             a[1] = "방어력";
             a[2] = "체력";
             a[3] = "치명타확률";
-            
 
-            Console.WriteLine($"{a[rand1]}" +
-                $"{a[rand2]}" +
-                $"{a[rand3]}");
+            Console.WriteLine("능력치 중 하나를 고르시오.");
+            Console.WriteLine($"1.{a[rand1]}\n2.{a[rand2]}\n3.{a[rand3]}");
+              
             int add = random.Next(0, 10);
             ConsoleKeyInfo key = Console.ReadKey();
 
